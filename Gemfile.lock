@@ -45,7 +45,7 @@ GEM
     daemons (1.1.9)
     diff-lcs (1.2.5)
     erubis (2.7.0)
-    eventmachine (1.0.7)
+    eventmachine (1.0.9.1)
     execjs (2.3.0)
     ffi (1.9.6)
     ffi (1.9.6-x86-mingw32)
@@ -193,6 +193,7 @@ DEPENDENCIES
   builder
   capybara
   coderay!
+  eventmachine (~> 1.0.9)
   highline
   listen
   middleman (~> 3.0)
@@ -209,6 +210,3 @@ DEPENDENCIES
   tzinfo-data
   underscore-rails
   wdm (>= 0.1.0)
-
-BUNDLED WITH
-   1.12.4

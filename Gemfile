@@ -15,6 +15,7 @@ gem "middleman-alias"
 gem "rails-assets-js-md5"
 gem "rails-assets-moment"
 gem "underscore-rails"
+gem "eventmachine", '~> 1.0.9'
 
 group :development, :test do
   gem 'pry'
